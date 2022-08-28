@@ -1,5 +1,3 @@
-var obj = JSON.parse($response.body);
-
 obj={
     "data": {
       "type": "adapty_inapps_apple_receipt_validation_result",
