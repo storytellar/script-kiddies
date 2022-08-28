@@ -1,0 +1,18 @@
+var obj = JSON.parse($response.body);
+
+obj={
+    "data": {
+      "type": "adapty_inapps_apple_receipt_validation_result",
+      "id": "7e5b6940-0066-4a6b-ac97-92d741bbd123",
+      "attributes": {
+        "paid_access_levels": {
+          "premium": {
+            "id": "premium",
+            "is_active": true,
+          }
+        },
+      }
+    }
+  }
+
+$done({body: JSON.stringify(obj)});
