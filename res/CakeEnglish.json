@@ -1,0 +1,9 @@
+obj={
+    "result": "SUCCESS",
+    "data": "https://static-mycake.pstatic.net/res/youtube_webview_v6.html?v=4",
+    "extra": {
+      "subscriptionStatus": "FREE_TRIAL",
+      "membership": "PLUS"
+    }
+  }
+$done({body: JSON.stringify(obj)});
